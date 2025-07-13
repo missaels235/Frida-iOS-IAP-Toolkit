@@ -77,15 +77,3 @@ Al ejecutar una compra en la app, verás un registro similar a este:
 
 // La transacción aparece en la cola como "comprada"
 [🧾] Transacción Detectada (Estado: Purchased): 1000000987654321
-
-
-
-
-
-
-
-
-##⚠️ Descargo de Responsabilidad
-Este script ha sido creado con fines educativos y de investigación de seguridad únicamente. Su propósito es ayudar a los desarrolladores y pentesters a entender y probar la seguridad de los flujos de IAP. No debe ser utilizado para la piratería o para obtener acceso no autorizado a contenido de pago. El mal uso de esta herramienta es responsabilidad exclusiva del usuario.
-
-
