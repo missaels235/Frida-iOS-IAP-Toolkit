@@ -52,6 +52,20 @@ El script se engancha (hooking) a varios métodos clave del framework `StoreKit`
 3.  **Monitoreo Activo**: Un `setInterval` revisa periódicamente la cola de transacciones (`SKPaymentQueue.defaultQueue().transactions()`) para detectar y registrar el estado de todas las transacciones pendientes o completadas.
 4.  **`NSURLSession` / `NSURLConnection`**: Se interceptan los métodos que inician solicitudes de red para extraer y mostrar la URL, las cabeceras y el cuerpo, permitiendo analizar cómo la app valida los recibos de compra con sus servidores.
 
+⚠️ Descargo de Responsabilidad
+Este script ha sido creado con fines educativos y de investigación de seguridad únicamente. Su propósito es ayudar a los desarrolladores y pentesters a entender y probar la seguridad de los flujos de IAP. No debe ser utilizado para la piratería o para obtener acceso no autorizado a contenido de pago. El mal uso de esta herramienta es responsabilidad exclusiva del usuario.
+
+El autor no se hace responsable de ninguna acción ilegal o daño que pueda ser causado por el uso de este software. Úsalo bajo tu propio riesgo.
+
+📄 Licencia MIT
+Copyright (c) 2025 [Tu Nombre o Nickname]
+
+Por la presente se concede permiso, libre de cargos, a cualquier persona que obtenga una copia de este software y de los archivos de documentación asociados (el "Software"), para comerciar con el Software sin restricción, incluyendo sin limitación los derechos de usar, copiar, modificar, fusionar, publicar, distribuir, sublicenciar, y/o vender copias del Software, y para permitir a las personas a las que se les proporcione el Software que lo hagan, sujeto a las siguientes condiciones:
+
+El aviso de copyright anterior y este aviso de permiso se incluirán en todas las copias o porciones sustanciales del Software.
+
+EL SOFTWARE SE PROPORCIONA "COMO ESTÁ", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O IMPLÍCITA, INCLUYENDO PERO NO LIMITADO A GARANTÍAS DE COMERCIABILIDAD, IDONEIDAD PARA UN PROPÓSITO PARTICULAR Y NO INFRACCIÓN. EN NINGÚN CASO LOS AUTORES O TITULARES DEL COPYRIGHT SERÁN RESPONSABLES DE NINGUNA RECLAMACIÓN, DAÑO U OTRA RESPONSABILIDAD, YA SEA EN UNA ACCIÓN DE CONTRATO, AGRAVIO O CUALQUIER OTRO MOTIVO, QUE SURJA DE O EN CONEXIÓN CON EL SOFTWARE O EL USO U OTROS TRATOS EN EL SOFTWARE.
+
 ---
 
 ## 📄 Ejemplo de Salida en la Consola
